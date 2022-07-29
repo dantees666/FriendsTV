@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA03B3642893AAC90050164C /* FriendsTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03B3632893AAC90050164C /* FriendsTVApp.swift */; };
+		AA03B3662893AAC90050164C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03B3652893AAC90050164C /* ContentView.swift */; };
+		AA03B3682893AACC0050164C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA03B3672893AACC0050164C /* Assets.xcassets */; };
+		AA03B36B2893AACC0050164C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA03B36A2893AACC0050164C /* Preview Assets.xcassets */; };
+		AA03B3752893AACC0050164C /* FriendsTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03B3742893AACC0050164C /* FriendsTVTests.swift */; };
+		AA03B37F2893AACC0050164C /* FriendsTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03B37E2893AACC0050164C /* FriendsTVUITests.swift */; };
+		AA03B3812893AACC0050164C /* FriendsTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03B3802893AACC0050164C /* FriendsTVUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA03B3712893AACC0050164C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03B3582893AAC90050164C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA03B35F2893AAC90050164C;
+			remoteInfo = FriendsTV;
+		};
+		AA03B37B2893AACC0050164C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03B3582893AAC90050164C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA03B35F2893AAC90050164C;
+			remoteInfo = FriendsTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA03B3602893AAC90050164C /* FriendsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03B3632893AAC90050164C /* FriendsTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTVApp.swift; sourceTree = "<group>"; };
+		AA03B3652893AAC90050164C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA03B3672893AACC0050164C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA03B36A2893AACC0050164C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA03B3702893AACC0050164C /* FriendsTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03B3742893AACC0050164C /* FriendsTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTVTests.swift; sourceTree = "<group>"; };
+		AA03B37A2893AACC0050164C /* FriendsTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03B37E2893AACC0050164C /* FriendsTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTVUITests.swift; sourceTree = "<group>"; };
+		AA03B3802893AACC0050164C /* FriendsTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA03B35D2893AAC90050164C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B36D2893AACC0050164C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B3772893AACC0050164C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA03B3572893AAC90050164C = {
+			isa = PBXGroup;
+			children = (
+				AA03B3622893AAC90050164C /* FriendsTV */,
+				AA03B3732893AACC0050164C /* FriendsTVTests */,
+				AA03B37D2893AACC0050164C /* FriendsTVUITests */,
+				AA03B3612893AAC90050164C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA03B3612893AAC90050164C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA03B3602893AAC90050164C /* FriendsTV.app */,
+				AA03B3702893AACC0050164C /* FriendsTVTests.xctest */,
+				AA03B37A2893AACC0050164C /* FriendsTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA03B3622893AAC90050164C /* FriendsTV */ = {
+			isa = PBXGroup;
+			children = (
+				AA03B3632893AAC90050164C /* FriendsTVApp.swift */,
+				AA03B3652893AAC90050164C /* ContentView.swift */,
+				AA03B3672893AACC0050164C /* Assets.xcassets */,
+				AA03B3692893AACC0050164C /* Preview Content */,
+			);
+			path = FriendsTV;
+			sourceTree = "<group>";
+		};
+		AA03B3692893AACC0050164C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA03B36A2893AACC0050164C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA03B3732893AACC0050164C /* FriendsTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA03B3742893AACC0050164C /* FriendsTVTests.swift */,
+			);
+			path = FriendsTVTests;
+			sourceTree = "<group>";
+		};
+		AA03B37D2893AACC0050164C /* FriendsTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA03B37E2893AACC0050164C /* FriendsTVUITests.swift */,
+				AA03B3802893AACC0050164C /* FriendsTVUITestsLaunchTests.swift */,
+			);
+			path = FriendsTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA03B35F2893AAC90050164C /* FriendsTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03B3842893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTV" */;
+			buildPhases = (
+				AA03B35C2893AAC90050164C /* Sources */,
+				AA03B35D2893AAC90050164C /* Frameworks */,
+				AA03B35E2893AAC90050164C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendsTV;
+			productName = FriendsTV;
+			productReference = AA03B3602893AAC90050164C /* FriendsTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA03B36F2893AACC0050164C /* FriendsTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03B3872893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTVTests" */;
+			buildPhases = (
+				AA03B36C2893AACC0050164C /* Sources */,
+				AA03B36D2893AACC0050164C /* Frameworks */,
+				AA03B36E2893AACC0050164C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA03B3722893AACC0050164C /* PBXTargetDependency */,
+			);
+			name = FriendsTVTests;
+			productName = FriendsTVTests;
+			productReference = AA03B3702893AACC0050164C /* FriendsTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA03B3792893AACC0050164C /* FriendsTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03B38A2893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTVUITests" */;
+			buildPhases = (
+				AA03B3762893AACC0050164C /* Sources */,
+				AA03B3772893AACC0050164C /* Frameworks */,
+				AA03B3782893AACC0050164C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA03B37C2893AACC0050164C /* PBXTargetDependency */,
+			);
+			name = FriendsTVUITests;
+			productName = FriendsTVUITests;
+			productReference = AA03B37A2893AACC0050164C /* FriendsTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA03B3582893AAC90050164C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA03B35F2893AAC90050164C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA03B36F2893AACC0050164C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA03B35F2893AAC90050164C;
+					};
+					AA03B3792893AACC0050164C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA03B35F2893AAC90050164C;
+					};
+				};
+			};
+			buildConfigurationList = AA03B35B2893AAC90050164C /* Build configuration list for PBXProject "FriendsTV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA03B3572893AAC90050164C;
+			productRefGroup = AA03B3612893AAC90050164C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA03B35F2893AAC90050164C /* FriendsTV */,
+				AA03B36F2893AACC0050164C /* FriendsTVTests */,
+				AA03B3792893AACC0050164C /* FriendsTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA03B35E2893AAC90050164C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03B36B2893AACC0050164C /* Preview Assets.xcassets in Resources */,
+				AA03B3682893AACC0050164C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B36E2893AACC0050164C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B3782893AACC0050164C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA03B35C2893AAC90050164C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03B3662893AAC90050164C /* ContentView.swift in Sources */,
+				AA03B3642893AAC90050164C /* FriendsTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B36C2893AACC0050164C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03B3752893AACC0050164C /* FriendsTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03B3762893AACC0050164C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03B3812893AACC0050164C /* FriendsTVUITestsLaunchTests.swift in Sources */,
+				AA03B37F2893AACC0050164C /* FriendsTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA03B3722893AACC0050164C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA03B35F2893AAC90050164C /* FriendsTV */;
+			targetProxy = AA03B3712893AACC0050164C /* PBXContainerItemProxy */;
+		};
+		AA03B37C2893AACC0050164C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA03B35F2893AAC90050164C /* FriendsTV */;
+			targetProxy = AA03B37B2893AACC0050164C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA03B3822893AACC0050164C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA03B3832893AACC0050164C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA03B3852893AACC0050164C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA03B3862893AACC0050164C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FriendsTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA03B3882893AACC0050164C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsTV.app/FriendsTV";
+			};
+			name = Debug;
+		};
+		AA03B3892893AACC0050164C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsTV.app/FriendsTV";
+			};
+			name = Release;
+		};
+		AA03B38B2893AACC0050164C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendsTV;
+			};
+			name = Debug;
+		};
+		AA03B38C2893AACC0050164C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qwezxc.FriendsTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FriendsTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA03B35B2893AAC90050164C /* Build configuration list for PBXProject "FriendsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03B3822893AACC0050164C /* Debug */,
+				AA03B3832893AACC0050164C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03B3842893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03B3852893AACC0050164C /* Debug */,
+				AA03B3862893AACC0050164C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03B3872893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03B3882893AACC0050164C /* Debug */,
+				AA03B3892893AACC0050164C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03B38A2893AACC0050164C /* Build configuration list for PBXNativeTarget "FriendsTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03B38B2893AACC0050164C /* Debug */,
+				AA03B38C2893AACC0050164C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA03B3582893AAC90050164C /* Project object */;
+}
